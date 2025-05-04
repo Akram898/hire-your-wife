@@ -1,25 +1,29 @@
 import Link from "next/link";
-import { ArrowUpRight, Check } from 'lucide-react';
+import { ArrowUpRight, Check } from "lucide-react";
 
 export default function Hero() {
   return (
     <div className="relative overflow-hidden bg-white">
       {/* Background gradient */}
       <div className="absolute inset-0 bg-gradient-to-br from-blue-50 via-white to-purple-50 opacity-70" />
-      
-      <div className="relative pt-24 pb-32 sm:pt-32 sm:pb-40">
+
+      <div className="relative pt-24 pb-15 sm:pt-22 sm:pb-32">
         <div className="container mx-auto px-4">
           <div className="text-center max-w-4xl mx-auto">
             <h1 className="text-5xl sm:text-6xl font-bold text-gray-900 mb-8 tracking-tight">
-              Build{" "}
+              Hire{" "}
               <span className="text-transparent bg-clip-text bg-gradient-to-r from-blue-600 to-purple-600">
-                Faster
-              </span>
-              {" "}with Our Next-Gen Platform
+                Your Wife
+              </span>{" "}
             </h1>
-            
+
+            <h1 className="text-5xl sm:text-6xl font-bold text-gray-900 mb-8 tracking-tight">
+              And Enjoy Peace of Mind
+            </h1>
+
             <p className="text-xl text-gray-600 mb-12 max-w-2xl mx-auto leading-relaxed">
-              Empower your team with our cutting-edge solution. Join industry leaders who've already transformed their workflow.
+              Hire your wife on your own terms. We’ll keep her busy with online
+              work — you just pay the salary (like you weren’t already 😁)
             </p>
 
             <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
@@ -30,7 +34,7 @@ export default function Hero() {
                 Get Started Free
                 <ArrowUpRight className="ml-2 w-5 h-5" />
               </Link>
-              
+
               <Link
                 href="#pricing"
                 className="inline-flex items-center px-8 py-4 text-gray-700 bg-gray-100 rounded-lg hover:bg-gray-200 transition-colors text-lg font-medium"
